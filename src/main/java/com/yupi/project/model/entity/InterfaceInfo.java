@@ -7,13 +7,12 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * 用户
- *
- * @TableName user
+ * 接口信息
+ * @TableName interface_info
  */
-@TableName(value = "user")
+@TableName(value ="interface_info")
 @Data
-public class User implements Serializable {
+public class InterfaceInfo implements Serializable {
     /**
      * id
      */
@@ -21,42 +20,49 @@ public class User implements Serializable {
     private Long id;
 
     /**
-     * 用户昵称
+     * 名称
      */
-    private String userName;
+    private String name;
 
     /**
-     * 账号
+     * 描述
      */
-    private String userAccount;
+    private String discription;
 
     /**
-     * 用户头像
+     * 接口地址
      */
-    private String userAvatar;
+    private String url;
 
     /**
-     * 性别
+     * 请求参数
      */
-    private Integer gender;
+    private String requestParams;
+    /**
+     * 请求头
+     */
+    private String requestHeader;
 
     /**
-     * 用户角色: user, admin
+     * 响应头
      */
-    private String userRole;
+    private String responseHeader;
 
     /**
-     * 密码
+     * 接口状态（0-关闭， 1-开启）
      */
-    private String userPassword;
+    private Integer status;
+
     /**
-     *  签名 accessKey
+     * 请求类型
      */
-    private String accessKey;
+    private String method;
+
     /**
-     * 签名 secretKey
+     * 创建人
      */
-    private String secretKey;
+    private Long userId;
+
     /**
      * 创建时间
      */
@@ -68,7 +74,7 @@ public class User implements Serializable {
     private Date updateTime;
 
     /**
-     * 是否删除
+     * 是否删除（0-未删， 1-已删）
      */
     @TableLogic
     private Integer isDelete;
