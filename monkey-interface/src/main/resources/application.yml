@@ -1,0 +1,8 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+monkey:
+  client:
+    access-key: yupi
+    secret-key: abcdefg

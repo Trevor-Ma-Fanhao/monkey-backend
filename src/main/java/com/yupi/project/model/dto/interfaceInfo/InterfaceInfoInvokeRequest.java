@@ -19,7 +19,6 @@ public class InterfaceInfoInvokeRequest implements Serializable {
     // @TableId(type = IdType.AUTO)
     private Long id;
 
-
     /*
     * 用户请求参数
     * */
