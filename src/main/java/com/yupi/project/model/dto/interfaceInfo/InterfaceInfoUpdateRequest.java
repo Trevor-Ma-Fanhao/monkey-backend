@@ -60,25 +60,4 @@ public class InterfaceInfoUpdateRequest implements Serializable {
      */
     private String method;
 
-    // 下面的属性 一般不能更改
-//    /**
-//     * 创建人
-//     */
-//    private Long userId;
-//
-//    /**
-//     * 创建时间
-//     */
-//    private Date createTime;
-//
-//    /**
-//     * 更新时间
-//     */
-//    private Date updateTime;
-//
-//    /**
-//     * 是否删除（0-未删， 1-已删）
-//     */
-//    @TableLogic
-//    private Integer isDelete;
 }
