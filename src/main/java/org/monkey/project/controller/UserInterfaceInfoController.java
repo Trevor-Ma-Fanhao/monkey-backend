@@ -15,7 +15,6 @@ import org.monkey.project.model.dto.userinterfaceinfo.UserInterfaceInfoUpdateReq
 import org.monkey.project.model.entity.User;
 
 
-import org.monkey.project.service.UserInterfaceInfoService;
 import org.monkey.project.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
