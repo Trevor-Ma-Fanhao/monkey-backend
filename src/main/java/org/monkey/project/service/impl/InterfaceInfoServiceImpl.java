@@ -1,10 +1,10 @@
 package org.monkey.project.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.monkey.monkeyapicommon.model.entity.InterfaceInfo;
 import org.monkey.project.common.ErrorCode;
 import org.monkey.project.exception.BusinessException;
 import org.monkey.project.mapper.InterfaceInfoMapper;
-import org.monkey.project.model.entity.InterfaceInfo;
 import org.monkey.project.service.InterfaceInfoService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;

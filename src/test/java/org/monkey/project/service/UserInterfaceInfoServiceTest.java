@@ -5,7 +5,6 @@ import org.junit.jupiter.api.Assertions;
 // 自动生成的包不对
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.monkey.monkeyapicommon.service.InnerUserInterfaceInfoService;
 
 import javax.annotation.Resource;
 

@@ -2,6 +2,7 @@ package org.monkey.project.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import org.monkey.monkeyapicommon.model.entity.User;
 import org.monkey.project.annotation.AuthCheck;
 import org.monkey.project.common.BaseResponse;
 import org.monkey.project.common.DeleteRequest;
@@ -13,7 +14,6 @@ import org.monkey.project.model.dto.post.PostAddRequest;
 import org.monkey.project.model.dto.post.PostQueryRequest;
 import org.monkey.project.model.dto.post.PostUpdateRequest;
 import org.monkey.project.model.entity.Post;
-import org.monkey.project.model.entity.User;
 import org.monkey.project.service.PostService;
 import org.monkey.project.service.UserService;
 import lombok.extern.slf4j.Slf4j;

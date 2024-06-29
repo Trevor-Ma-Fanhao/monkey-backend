@@ -2,6 +2,7 @@ package org.monkey.project.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import org.monkey.monkeyapicommon.model.entity.User;
 import org.monkey.monkeyapicommon.model.entity.UserInterfaceInfo;
 import org.monkey.project.annotation.AuthCheck;
 import org.monkey.project.constant.CommonConstant;
@@ -12,9 +13,8 @@ import org.monkey.project.model.dto.userinterfaceinfo.UserInterfaceInfoAddReques
 import org.monkey.project.model.dto.userinterfaceinfo.UserInterfaceInfoQueryRequest;
 import org.monkey.project.model.dto.userinterfaceinfo.UserInterfaceInfoUpdateRequest;
 
-import org.monkey.project.model.entity.User;
 
-
+import org.monkey.project.service.UserInterfaceInfoService;
 import org.monkey.project.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;

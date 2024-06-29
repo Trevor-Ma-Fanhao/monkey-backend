@@ -1,11 +1,11 @@
 package org.monkey.project.aop;
 
 import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
+import org.monkey.monkeyapicommon.model.entity.User;
 import org.monkey.project.annotation.AuthCheck;
 import org.monkey.project.common.ErrorCode;
 import org.monkey.project.exception.BusinessException;
 
-import org.monkey.project.model.entity.User;
 import org.monkey.project.service.UserService;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;

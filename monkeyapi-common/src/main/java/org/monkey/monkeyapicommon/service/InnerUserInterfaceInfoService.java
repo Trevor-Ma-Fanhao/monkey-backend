@@ -1,10 +1,13 @@
 package org.monkey.monkeyapicommon.service;
 
+import javax.annotation.Resource;
+
 /**
 * @author luckyma
 * @description 针对表【user_interface_info(用户调用接口关系)】的数据库操作Service
 * @createDate 2024-06-16 01:47:22
 */
+
 public interface InnerUserInterfaceInfoService{
     /*
     * 调用接口统计

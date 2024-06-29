@@ -1,7 +1,7 @@
 package org.monkey.project.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.monkey.project.model.entity.InterfaceInfo;
+import org.monkey.monkeyapicommon.model.entity.InterfaceInfo;
 
 /**
 * @author luckyma

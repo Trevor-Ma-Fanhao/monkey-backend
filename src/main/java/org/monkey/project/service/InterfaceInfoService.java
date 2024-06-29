@@ -1,7 +1,7 @@
 package org.monkey.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.monkey.project.model.entity.InterfaceInfo;
+import org.monkey.monkeyapicommon.model.entity.InterfaceInfo;
 
 /**
 * @author luckyma

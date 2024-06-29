@@ -7,7 +7,6 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.monkey.project.common.ErrorCode;
 import org.monkey.project.exception.BusinessException;
 import org.monkey.project.mapper.UserMapper;
-import org.monkey.project.model.entity.User;
 import org.monkey.project.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
@@ -17,7 +16,7 @@ import org.springframework.util.DigestUtils;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
-
+import org.monkey.monkeyapicommon.model.entity.User;
 
 /**
  * 用户服务实现类
@@ -35,7 +34,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User>
     /**
      * 盐值，混淆密码
      */
-    private static final String SALT = "yupi";
+    private static final String SALT = "salt";
 
     @Override
     public long userRegister(String userAccount, String userPassword, String checkPassword) {

@@ -3,15 +3,13 @@ package org.monkey.project.controller;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.google.gson.Gson;
+import org.monkey.monkeyapicommon.model.entity.InterfaceInfo;
 import org.monkey.project.annotation.AuthCheck;
 import org.monkey.project.common.*;
 import org.monkey.project.constant.CommonConstant;
 import org.monkey.project.exception.BusinessException;
 
-import org.monkey.project.model.entity.InterfaceInfo;
 
-
-import org.monkey.project.model.entity.User;
 import org.monkey.project.model.enums.InterfaceInfoStatusEnum;
 import org.monkey.project.service.InterfaceInfoService;
 import org.monkey.project.service.UserService;
@@ -26,6 +24,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.web.bind.annotation.*;
 import org.monkey.monkeyclientsdk.client.*;
 
+import org.monkey.monkeyapicommon.model.entity.User;
 
 
 import javax.annotation.Resource;

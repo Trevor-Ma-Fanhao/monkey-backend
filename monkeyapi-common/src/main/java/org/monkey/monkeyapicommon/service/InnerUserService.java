@@ -3,10 +3,13 @@ package org.monkey.monkeyapicommon.service;
 
 import org.monkey.monkeyapicommon.model.entity.User;
 
+import javax.annotation.Resource;
+
 /**
  * 用户服务
  *
  */
+
 public interface InnerUserService {
 
     /*

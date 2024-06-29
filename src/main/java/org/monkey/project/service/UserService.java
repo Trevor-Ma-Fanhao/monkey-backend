@@ -2,7 +2,7 @@ package org.monkey.project.service;
 
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import org.monkey.project.model.entity.User;
+import org.monkey.monkeyapicommon.model.entity.User;
 
 import javax.servlet.http.HttpServletRequest;
 
